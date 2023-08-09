@@ -1,3 +1,19 @@
-body{
-    background-color: red;
-}
+// Abstract
+@import "abstracts/variables";
+
+// Base
+@import "base/reset";
+@import "base/typography";
+
+// Components
+@import "components/container.scss";
+@import "components/buttons.scss";
+
+// Layouts
+
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/footer";
+
+// Themes 
+@import "themes/default"  

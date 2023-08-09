@@ -1,0 +1,15 @@
+.contact{
+   color: red;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid $color-green;
+
+    &:hover{
+        color: $color-green;
+    }
+}
