@@ -13,25 +13,27 @@ function Header() {
             adamkeyes
         </h3>
 
+    </div>
         <ul className="links">
         <li><a href="#"><img src={Github} alt="" /></a></li>
         <li><a href="#"><img src={Mentor} alt="" /></a></li>
         <li><a href="#"><img src={Linkedln} alt="" /></a></li>
         <li><a href="#"><img src={Twitter} alt="" /></a></li>
         </ul>
-    </div>
 </nav>
 
 <div className="content">
-    <h1>Nice to meet you!
+    <h1 className='heading-xl'>Nice to meet you!
         I'm <span className='green-line'>Adam Keyes.</span>
     </h1>
 
-    <p>
+    <p className='body-text'>
     Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
     </p>
 
     <a href="#" className='contact'>Contact Me</a>
+
+
 </div>
 
 </header>

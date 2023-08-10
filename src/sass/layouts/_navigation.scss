@@ -1,0 +1,16 @@
+.navigation {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 39px;
+  align-items: center;
+
+  .links{
+    display: flex;
+
+    li{
+        &:not(:last-child){
+            margin-right: 20px;
+        }
+    }
+  }
+}
