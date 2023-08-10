@@ -1,5 +1,10 @@
 // Project Image
-import Design from "../assets/thumbnail-project-3-large.webp";
+import Design1 from "../assets/thumbnail-project-1-large.webp";
+import Design2 from "../assets/thumbnail-project-2-large.webp";
+import Design3 from "../assets/thumbnail-project-3-large.webp";
+import Design4 from "../assets/thumbnail-project-4-large.webp";
+import Design5 from "../assets/thumbnail-project-5-large.webp";
+import Design6 from "../assets/thumbnail-project-6-large.webp";
 
 function MainContent() {
   return (
@@ -34,7 +39,7 @@ function MainContent() {
       <section className="projects">
         <div className="projects-heading">
           <h3 className="heading-xl">Projects</h3>
-          <a className="contact" href="#">
+          <a className="contact" href="#footer">
             Contact Me
           </a>
         </div>
@@ -42,7 +47,7 @@ function MainContent() {
         <div className="project-grid-area">
           <div className="project">
                 <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design1} alt="" />
                 </div>
 
               <div className="project-info">
@@ -65,7 +70,7 @@ function MainContent() {
 
           <div className="project">
             <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design2} alt="" />
             </div>
             <div className="project-info">
               <h3 className="heading-m">E-LEARNING LANDING PAGE</h3>
@@ -86,7 +91,7 @@ function MainContent() {
 
           <div className="project">
             <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design3} alt="" />
             </div>
             <div className="project-info">
               <h3 className="heading-m">TODO WEB APP</h3>
@@ -107,7 +112,7 @@ function MainContent() {
           </div>
           <div className="project">
             <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design4} alt="" />
             </div>
             <div className="project-info">
               <h3 className="heading-m">ENTERTAINMENT WEB APP</h3>
@@ -128,7 +133,7 @@ function MainContent() {
           </div>
           <div className="project">
             <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design5} alt="" />
             </div>
             <div className="project-info">
               <h3 className="heading-m">MEMORY GAME</h3>
@@ -150,7 +155,7 @@ function MainContent() {
           </div>
           <div className="project">
             <div className="project-img-container">
-              <img src={Design} alt="" />
+              <img src={Design6} alt="" />
             </div>
             <div className="project-info">
               <h3 className="heading-m">ART GALLERY SHOWCASE</h3>

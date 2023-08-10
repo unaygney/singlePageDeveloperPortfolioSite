@@ -31,7 +31,7 @@ function Header() {
     Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
     </p>
 
-    <a href="#" className='contact'>Contact Me</a>
+    <a href="#footer" className='contact'>Contact Me</a>
 
 
 </div>

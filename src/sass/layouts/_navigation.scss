@@ -8,9 +8,19 @@
     display: flex;
 
     li{
+
+   
         &:not(:last-child){
             margin-right: 20px;
         }
     }
+  }
+}
+
+@media (max-width : 478px) {
+  .navigation{
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
   }
 }

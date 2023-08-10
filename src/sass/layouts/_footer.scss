@@ -24,14 +24,10 @@
       flex-direction: column;
       gap: 32px;
 
-      //   .form-control {
-      //     &:not(:last-child) {
-      //       margin-bottom: 32px;
-      //     }
       input {
         background-color: transparent;
         border-bottom: 1px solid hsla(0, 0%, 100%, 1);
-        width: 100%;
+        width: calc(100% - 24px);
         height: 43px;
         padding-left: 24px;
         color: $color-white;
@@ -44,7 +40,7 @@
 
       textarea {
         background-color: transparent;
-        width: 100%;
+        width: calc(100% - 24px);
         height: 107px;
         border-bottom: 1px solid hsla(0, 0%, 100%, 1);
         resize: none;
@@ -65,7 +61,53 @@
     }
   }
 
-  .navigation{
+  .navigation {
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    border-bottom: 1px solid white;
+
+    &.container {
+      width: 445px;
+      text-align: center;
+      gap: 48px;
+      flex-direction: column;
+      border-bottom: 1px solid white;
+      .footer-content {
+        h3 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 478px) {
+  .footer {
+    &.container {
+      width: 375px;
+      padding-top: 60px;
+      flex-direction: column;
+      .footer-content {
+        h3 {
+          font-size: 40px;
+          text-align: center;
+          width: 343px;
+        }
+
+        p {
+          width: 343px;
+        }
+      }
+      .form {
+        padding: 0 16px;
+        input {
+          width: calc(100% - 24px);
+        }
+      }
+    }
   }
 }
