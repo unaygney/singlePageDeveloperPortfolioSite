@@ -166,12 +166,14 @@ function MainContent() {
               </div>
 
               <div className="project-views">
+        
                 <a className="contact" href="#">
                   VIEW PROJECT
                 </a>
                 <a className="contact" href="#">
                   VIEW CODE
                 </a>
+            
               </div>
             </div>
           </div>

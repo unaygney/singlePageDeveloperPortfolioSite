@@ -43,7 +43,7 @@
 
           .project-info {
             .project-views {
-              display: block;
+              display: flex;
             }
           }
         }
@@ -69,15 +69,13 @@
             top: 45%;
             left: 50%;
             transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
             display: none;
+        
 
-            a {
-              &:last-child {
-                display: flex;
-                justify-content: center;
-                margin-top: 45px;
-              }
-            }
+
           }
         }
 
@@ -102,46 +100,65 @@
         grid-template-columns: repeat(2, 342px);
         grid-template-rows: 398px;
 
-.project{
-  .project-img-container {
-    width: 346px;
-    height: 253px;
-  }
-}
+        .project {
+          .project-img-container {
+            width: 346px;
+            height: 253px;
+          }
+          .project-info {
+            .project-views {
+              display: flex;
+              position: relative;
+              flex-direction: row;
+              margin-top: 30px;
+            }
+          }
+        }
       }
     }
   }
 }
 
-@media (max-width: 478px){
-.main{
-  .talents{
-    .talent{
-      width: 100%;
-      text-align: center;
-      margin-top: 24px;
+@media (max-width: 478px) {
+  .main {
+    .talents {
+      .talent {
+        width: 100%;
+        text-align: center;
+        margin-top: 24px;
 
-      &:last-child{
-        padding-bottom: 4rem;
-        border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
+        &:last-child {
+          padding-bottom: 4rem;
+          border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
+        }
+
+        h3 {
+          font-size: 32px;
+        }
+      }
+    }
+
+    .projects {
+      .projects-heading {
+        h3 {
+          font-size: 40px;
+        }
       }
 
-      h3 {
-       font-size: 32px;
+      .project-grid-area {
+        grid-template-columns: repeat(1, 1fr);
+
+        .project{
+          .project-info {
+            .project-views {
+              display: flex;
+              position: relative;
+              flex-direction: row;
+              margin-top: 30px;
+            }
+          }
+        }
       }
     }
   }
-
-  .projects{
-    .projects-heading{
-      h3{
-        font-size: 40px;
-      }
-    }
-
-    .project-grid-area{
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-}
 }
