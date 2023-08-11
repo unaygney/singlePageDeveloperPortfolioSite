@@ -1,7 +1,7 @@
 
 ### Project Demo
 
-![Demo](./screenshots/project-video.mp4)
+![Demo](./screenshots/project-video.gif)
 
 
 
