@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/singlepage-developer-portfolio-y-C_JYq6gS)
+- Live Site URL: [Live site URL here](https://64d658b48e0cde7dc5aa228b--unrivaled-profiterole-fd5824.netlify.app/)
 
 ### Built with
 
@@ -16,7 +16,6 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Formik](https://formik.org/) - React library
 
