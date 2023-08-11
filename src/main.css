@@ -302,31 +302,59 @@ body {
       display: flex;
       flex-direction: column;
       gap: 32px; }
-      .footer.container .form input {
-        background-color: transparent;
-        border-bottom: 1px solid white;
-        width: calc(100% - 24px);
-        height: 43px;
-        padding-left: 24px;
-        color: #ffffff;
-        font-family: Space Grotesk;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: -0.222px;
-        font-weight: 500; }
-      .footer.container .form textarea {
-        background-color: transparent;
-        width: calc(100% - 24px);
-        height: 107px;
-        border-bottom: 1px solid white;
-        resize: none;
-        padding-left: 24px;
-        color: #ffffff;
-        font-family: Space Grotesk;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: -0.222px;
-        font-weight: 500; }
+      .footer.container .form .form-control {
+        position: relative; }
+        .footer.container .form .form-control input {
+          background-color: transparent;
+          border-bottom: 1px solid white;
+          width: calc(100% - 24px);
+          height: 43px;
+          padding-left: 24px;
+          color: #ffffff;
+          font-family: Space Grotesk;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.222px;
+          font-weight: 500; }
+          .footer.container .form .form-control input.valid-input {
+            border-bottom: 1px solid #4EE1A0;
+            background-color: transparent; }
+          .footer.container .form .form-control input.false-input {
+            border-bottom: 1px solid #ff6f5b; }
+        .footer.container .form .form-control textarea {
+          background-color: transparent;
+          width: calc(100% - 24px);
+          height: 107px;
+          border-bottom: 1px solid white;
+          resize: none;
+          padding-left: 24px;
+          color: #ffffff;
+          font-family: Space Grotesk;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.222px;
+          font-weight: 500; }
+          .footer.container .form .form-control textarea.valid-input {
+            border-bottom: 1px solid #4EE1A0;
+            background-color: transparent; }
+          .footer.container .form .form-control textarea.false-input {
+            border-bottom: 1px solid #ff6f5b; }
+        .footer.container .form .form-control .error-image {
+          position: absolute;
+          top: 35%;
+          right: 0;
+          transform: translateY(-50%); }
+        .footer.container .form .form-control .error-message {
+          color: #ff6f5b;
+          font-family: Space Grotesk;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 16px;
+          /* 133.333% */
+          letter-spacing: -0.167px;
+          text-align: end;
+          margin-top: 5px; }
     .footer.container .contact {
       background-color: transparent;
       width: 142px;
